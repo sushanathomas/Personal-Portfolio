@@ -1,3 +1,5 @@
+/* @import url("https://fonts.googleapis.com/css?family=Raleway:400,400italic,700,800"); */
+
 html,
 body,
 section,
@@ -192,7 +194,7 @@ input,
 select,
 textarea {
 	color: #6f7577;
-	font-family: Cambria, Georgia, "Times New Roman", serif;
+	font-family: "Merriweather", Georgia, serif;
 	font-size: 15pt;
 	font-weight: 400;
 	line-height: 1.75em;
@@ -232,12 +234,13 @@ p {
 h1,
 h2,
 h3 {
-	color: #61686b;
-	font-weight: 800;
-	letter-spacing: 0.075em;
-	line-height: 1em;
-	margin: 0 0 1em 0;
-	text-transform: uppercase;
+    color: #61686b;
+    font-weight: 800;
+    letter-spacing: 0.075em;
+    line-height: 1em;
+    margin: 0 0 1em 0;
+    text-transform: uppercase;
+	font-family: "Raleway", Helvetica, sans-serif;
 }
 
 h1 a,
