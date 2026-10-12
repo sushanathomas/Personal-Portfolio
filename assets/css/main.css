@@ -121,6 +121,7 @@ table {
 
 body {
 	-webkit-text-size-adjust: none;
+	
 }
 
 mark {
@@ -194,7 +195,7 @@ input,
 select,
 textarea {
 	color: #6f7577;
-	font-family: "Merriweather", Georgia, serif;
+	font-family: 'Libre Baskerville', Georgia, serif;
 	font-size: 15pt;
 	font-weight: 400;
 	line-height: 1.75em;
@@ -240,7 +241,7 @@ h3 {
     line-height: 1em;
     margin: 0 0 1em 0;
     text-transform: uppercase;
-	font-family: "Raleway", Helvetica, sans-serif;
+	font-family: 'Raleway', sans-serif;
 }
 
 h1 a,
@@ -930,6 +931,51 @@ input[type="submit"].primary:active {
 
 #footer footer a:hover {
 	color: #ffffff !important;
+}
+
+/* Footer Social Icons */
+
+#footer .icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 18px;
+    padding: 0;
+    list-style: none;
+}
+
+#footer .icons li {
+    padding: 0;
+    margin: 0;
+}
+
+#footer .icons a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 52px;
+    height: 52px;
+    border: 2px solid #8cd1a8;
+    border-radius: 50%;
+    color: #555;
+    font-size: 22px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+#footer .icons a:hover {
+    background-color: #8cd1a8;
+    color: #fff;
+    transform: translateY(-5px);
+}
+
+#footer h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
 }
 
 /* Laptop */
