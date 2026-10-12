@@ -796,9 +796,8 @@ input[type="submit"].primary:active {
 
 .project-card img {
 	width: 100%;
-	height: 200px;
-	object-fit: contain;
-	background: white;
+	height: 100px;
+	object-fit: cover;
 	object-position: top;
 	display: block;
 }
@@ -1125,7 +1124,7 @@ input[type="submit"].primary:active {
 	ul.icons-grid {
         grid-template-columns: 1fr;
     }
-	
+
 	ul.icons-grid li {
 		box-shadow: inset 0 1px 0 0 #dddddd !important;
 		float: none;
