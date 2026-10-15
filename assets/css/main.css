@@ -978,6 +978,25 @@ input[type="submit"].primary:active {
     margin-bottom: 25px;
 }
 
+/* "In progress" badge on the newborn marketplace card */
+.project-status {
+	display: inline-block;
+	margin-bottom: 0.75rem;
+	padding: 0.25rem 0.8rem;
+	border: 1px solid currentColor;
+	border-radius: 999px;
+	font-size: 0.75rem;
+	font-weight: 600;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+}
+
+/* Direct email line under the contact form */
+.direct-email {
+	margin-top: 1.5rem;
+	text-align: center;
+}
+
 /* Laptop */
 
 @media screen and (max-width: 1080px) {
